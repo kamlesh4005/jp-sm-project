@@ -1,3 +1,4 @@
+// src/config/logger.js
 const winston = require('winston');
 const config = require('./config');
 const path = require('path');
@@ -28,9 +29,9 @@ const logger = winston.createLogger({
   format: winston.format.combine(
     enumerateErrorFormat(),
     userIdFormat(),
-    config.env === 'development' ? winston.format.colorize() : winston.format.uncolorize(),
+    winston.format.colorize(),
     winston.format.splat(),
-    winston.format.printf(({ level, message }) => `${level}: ${message}`)
+    winston.format.printf(({ level, message, userId }) => userId ? `${level}: [UserID: ${userId}] ${message}` : `${level}: ${message}`)
   ),
   transports: [
     new winston.transports.Console({
@@ -45,6 +46,7 @@ const logger = winston.createLogger({
       level: 'error',
     }),
   ],
+  defaultMeta: {}, // Initialize with empty object
 });
 
 module.exports = logger;

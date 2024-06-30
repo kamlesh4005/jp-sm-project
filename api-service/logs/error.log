@@ -77,3 +77,66 @@
 [31merror[39m: (node:164) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 [31merror[39m: (node:164) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:47) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:47) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:75) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:75) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:96) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:96) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:110) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:110) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:123) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:123) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:149) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:149) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:162) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:162) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:46) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:46) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:60) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:60) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:99) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:99) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:47) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:47) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:61) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:61) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:75) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:75) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:89) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:89) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: (node:103) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31merror[39m: (node:103) [DEP0170] DeprecationWarning: The URL mongodb://multipletrickscom:dYaidKoaW2USZ2Cp@ac-g46iis5-shard-00-02.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-00.ztu6p6j.mongodb.net:27017,ac-g46iis5-shard-00-01.ztu6p6j.mongodb.net:27017/smdbm001?authSource=admin&replicaSet=atlas-ebsjxz-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true is invalid. Future versions of Node.js will throw an error.
+[31merror[39m: Error: Please authenticate
+    at /usr/src/node-app/src/middlewares/auth.js:8:19
+    at allFailed (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at strategy.fail (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:106:33
+    at /usr/src/node-app/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:90:14)
+    at module.exports [as verify] (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:94:10)
+    at module.exports [as JwtVerifier] (/usr/src/node-app/node_modules/passport-jwt/lib/verify_jwt.js:4:16)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:40:13)
+    at JwtStrategy.authenticate (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:99:10)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /usr/src/node-app/src/middlewares/auth.js:26:107
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/users 401 - 8.358 ms - message: Please authenticate

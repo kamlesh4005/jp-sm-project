@@ -21,6 +21,9 @@ if (config.env !== 'test') {
   app.use(morgan.successHandler);
   app.use(morgan.errorHandler);
 }
+// Use the middleware
+app.use(logUserMiddleware);
+
 
 // set security HTTP headers
 app.use(helmet());
@@ -64,8 +67,5 @@ app.use(errorConverter);
 
 // handle error
 app.use(errorHandler);
-
-//log User in winston logs
-app.use(logUserMiddleware);
 
 module.exports = app;
