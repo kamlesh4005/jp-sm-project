@@ -12,4 +12,4 @@ yarn-error.log
 coverage
 
 #logs
-*.log
+api-service/logs/*.log

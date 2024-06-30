@@ -346,3 +346,5 @@
 [32minfo[39m: GET /v1/users 200 - 561.683 ms
 [32minfo[39m: [UserID: 667fff5dc66738106bd4331a] [UserID: 667fff5dc66738106bd4331a] Result:  
 [32minfo[39m: GET /v1/users 200 - 513.936 ms
+[32minfo[39m: [UserID: 667fff5dc66738106bd4331a] [UserID: 667fff5dc66738106bd4331a] Result:  
+[32minfo[39m: GET /v1/users 200 - 490.982 ms
