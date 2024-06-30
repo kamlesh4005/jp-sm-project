@@ -13,6 +13,7 @@ const { authLimiter } = require('./middlewares/rateLimiter');
 const routes = require('./routes/v1');
 const { errorConverter, errorHandler } = require('./middlewares/error');
 const ApiError = require('./utils/ApiError');
+const logUserMiddleware = require('./middlewares/logUser');
 
 const app = express();
 
@@ -63,5 +64,8 @@ app.use(errorConverter);
 
 // handle error
 app.use(errorHandler);
+
+//log User in winston logs
+app.use(logUserMiddleware);
 
 module.exports = app;
