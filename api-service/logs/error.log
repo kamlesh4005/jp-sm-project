@@ -140,3 +140,224 @@
     at /usr/src/node-app/src/middlewares/auth.js:26:107
     at new Promise (<anonymous>)
 [31merror[39m: GET /v1/users 401 - 8.358 ms - message: Please authenticate
+[31merror[39m: Error: password must be at least 8 characters, "name" is required
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 18.839 ms - message: password must be at least 8 characters, "name" is required
+[31merror[39m: Error: "name" is required
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 16.875 ms - message: "name" is required
+[31merror[39m: Error: "name" is required
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 6.584 ms - message: "name" is required
+[31merror[39m: Error: "name" is required
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 7.870 ms - message: "name" is required
+[31merror[39m: Error: "name" is required
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 4.232 ms - message: "name" is required
+[31merror[39m: Error: "email" must be a valid email, password must be at least 8 characters, "name" is required
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 7.993 ms - message: "email" must be a valid email, password must be at least 8 characters, "name" is required
+[31merror[39m: Error: "email" must be a valid email, password must be at least 8 characters
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 13.559 ms - message: "email" must be a valid email, password must be at least 8 characters
+[31merror[39m: Error: "email" must be a valid email, password must be at least 8 characters
+    at /usr/src/node-app/src/middlewares/validate.js:15:17
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/node-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/usr/src/node-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+    at router (/usr/src/node-app/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/usr/src/node-app/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/usr/src/node-app/node_modules/express/lib/router/index.js:317:13)
+    at /usr/src/node-app/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/usr/src/node-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/usr/src/node-app/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/usr/src/node-app/node_modules/express/lib/router/index.js:174:3)
+[31merror[39m: POST /v1/auth/register 400 - 6.059 ms - message: "email" must be a valid email, password must be at least 8 characters
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (/usr/src/node-app/src/services/auth.service.js:17:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/src/node-app/src/controllers/auth.controller.js:13:16
+[31merror[39m: POST /v1/auth/login 401 - 258.991 ms - message: Incorrect email or password
+[31merror[39m: Error: Please authenticate
+    at /usr/src/node-app/src/middlewares/auth.js:8:19
+    at allFailed (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at strategy.fail (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:106:33
+    at /usr/src/node-app/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:90:14)
+    at module.exports [as verify] (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:94:10)
+    at module.exports [as JwtVerifier] (/usr/src/node-app/node_modules/passport-jwt/lib/verify_jwt.js:4:16)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:40:13)
+    at JwtStrategy.authenticate (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:99:10)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /usr/src/node-app/src/middlewares/auth.js:26:107
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/users 401 - 11.007 ms - message: Please authenticate
+[31merror[39m: Error: Please authenticate
+    at /usr/src/node-app/src/middlewares/auth.js:8:19
+    at allFailed (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at strategy.fail (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:106:33
+    at /usr/src/node-app/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:90:14)
+    at module.exports [as verify] (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:94:10)
+    at module.exports [as JwtVerifier] (/usr/src/node-app/node_modules/passport-jwt/lib/verify_jwt.js:4:16)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:40:13)
+    at JwtStrategy.authenticate (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:99:10)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /usr/src/node-app/src/middlewares/auth.js:26:107
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/users/667fff5dc66738106bd4331a 401 - 50.414 ms - message: Please authenticate
+[31merror[39m: Error: Please authenticate
+    at /usr/src/node-app/src/middlewares/auth.js:8:19
+    at allFailed (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at strategy.fail (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:106:33
+    at /usr/src/node-app/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:90:14)
+    at module.exports [as verify] (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:94:10)
+    at module.exports [as JwtVerifier] (/usr/src/node-app/node_modules/passport-jwt/lib/verify_jwt.js:4:16)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:40:13)
+    at JwtStrategy.authenticate (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:99:10)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /usr/src/node-app/src/middlewares/auth.js:26:107
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/users/667fff5dc66738106bd4331a 401 - 1.879 ms - message: Please authenticate
+[31merror[39m: Error: Please authenticate
+    at /usr/src/node-app/src/middlewares/auth.js:8:19
+    at allFailed (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:107:18)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:180:28)
+    at strategy.fail (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:302:9)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:106:33
+    at /usr/src/node-app/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:90:14)
+    at module.exports [as verify] (/usr/src/node-app/node_modules/jsonwebtoken/verify.js:94:10)
+    at module.exports [as JwtVerifier] (/usr/src/node-app/node_modules/passport-jwt/lib/verify_jwt.js:4:16)
+    at /usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:40:13)
+    at JwtStrategy.authenticate (/usr/src/node-app/node_modules/passport-jwt/lib/strategy.js:99:10)
+    at attempt (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/usr/src/node-app/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at /usr/src/node-app/src/middlewares/auth.js:26:107
+    at new Promise (<anonymous>)
+[31merror[39m: GET /v1/users/667fff5dc66738106bd4331a 401 - 89.776 ms - message: Please authenticate

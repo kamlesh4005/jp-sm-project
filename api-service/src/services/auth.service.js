@@ -16,6 +16,10 @@ const loginUserWithEmailAndPassword = async (email, password) => {
   if (!user || !(await user.isPasswordMatch(password))) {
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Incorrect email or password');
   }
+
+  // Invalidate existing refresh tokens
+  await Token.deleteMany({ user: user.id, type: tokenTypes.REFRESH });
+
   return user;
 };
 
